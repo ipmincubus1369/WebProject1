@@ -75,6 +75,7 @@ public class GetRestaurantsNearby extends HttpServlet {
 	 	 } catch (Exception e) { /* report an error */
 	 	 }
 
+	 	 
 	 	 try {
 	 		 JSONObject input = new JSONObject(jb.toString());
 	 		 JSONArray array = null;
